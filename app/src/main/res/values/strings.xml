@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">WhatsWifiSwitch</string>
+    <string name="target_contact_label">סינון לפי איש קשר (אופציונלי)</string>
+    <string name="hint_target_contact">שם איש קשר או מספר טלפון</string>
+    <string name="target_contact_explanation">אם תמלא כאן שם או מספר - הוויפי ידלק רק כשהצ\'אט הספציפי הזה פתוח על המסך, ולא בכל מסך אחר של וואטספ. השאר ריק כדי שהוויפי ידלק בכל פתיחת וואטספ (כברירת מחדל).</string>
+    <string name="networks_label">רשתות WiFi שמורות</string>
+    <string name="hint_ssid">שם הרשת (SSID)</string>
+    <string name="hint_password">סיסמת הרשת</string>
+    <string name="save">שמור</string>
+    <string name="cancel">ביטול</string>
+    <string name="delete">מחק</string>
+    <string name="edit">ערוך</string>
+    <string name="add_network">הוסף רשת</string>
+    <string name="edit_network">ערוך רשת</string>
+    <string name="no_networks">עדיין לא נשמרו רשתות. הוסף רשת כדי להתחיל.</string>
+    <string name="delete_network_title">מחיקת רשת</string>
+    <string name="delete_network_message">למחוק את \"%1$s\"?</string>
+    <string name="enable_accessibility">הפעל הרשאת נגישות</string>
+    <string name="settings_saved">ההגדרות נשמרו</string>
+    <string name="error_empty_fields">אנא מלא שם רשת וסיסמה</string>
+    <string name="find_service_hint">חפש \"WhatsWifiSwitch\" ברשימת שירותי הנגישות והפעל אותו</string>
+    <string name="explanation">כשוואטספ נפתח - הוויפי ידלק ויתחבר לרשת השמורה שנמצאת בטווח. כשוואטספ נסגר - הוויפי יכבה. באנדרואיד 10 ומעלה ייתכן שתצטרך לאשר פעם אחת בפאנל שנפתח (מגבלת מערכת של גוגל).</string>
+    <string name="accessibility_service_description">נדרש כדי לזהות מתי וואטספ נפתח או נסגר, ולהפעיל/לכבות את הוויפי בהתאם.</string>
+</resources>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/target_contact_label"
+        android:textStyle="bold"
+        android:layout_marginTop="4dp" />
+
+    <EditText
+        android:id="@+id/targetContactInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_target_contact"
+        android:inputType="text"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/saveTargetContactButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/target_contact_explanation"
+        android:textSize="12sp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/networks_label"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/emptyText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/no_networks"
+        android:visibility="gone"
+        android:paddingVertical="16dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/networksList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/addNetworkButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_network"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:id="@+id/enableAccessibilityButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enable_accessibility"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/explanation"
+        android:textSize="13sp"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
